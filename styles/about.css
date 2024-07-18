@@ -56,10 +56,10 @@ body {
 }
 #firstC {
   width: 1500px;
+  margin-right: 100px;
 }
 #mainContainer {
   display: flex;
-  gap: 50px;
 }
 @media (max-width: 800px) {
   #mainContainer {

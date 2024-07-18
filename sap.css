@@ -7,37 +7,44 @@
   font-weight: 100;
   padding: 10px;
 }
-.About {
-  text-align: center;
-  font-weight: 900;
-  font-size: 350%;
-}
-.heading {
-  font-size: 28px;
-  font-weight: 500;
-  margin: 20px;
-}
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
+  font-weight: 200%;
+}
+.sap {
+  text-align: center;
+  font-weight: 900;
+  font-size: 350%;
+}
+.sizing {
+  font-size: 18px;
+  color: #3d3e3e;
+  padding-top: 12px;
+  font-weight: 100;
+  padding-left: 15px;
+  padding-right: 35%;
+}
+.new-sizing {
+  font-size: 18px;
+  color: #606d75;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 250%;
+  margin: 5px;
+}
+.span {
+  color: #606d75;
+  font-weight: 500;
+  font-size: 16px;
 }
 .icon {
   width: 50px;
   height: 25px;
   color: #167a9c;
   font-size: 20px;
-}
-.sizing {
-  font-size: 16px;
-  color: #3d3e3e;
-  padding-top: 12px;
-  font-weight: 100;
-}
-.span {
-  color: #606d75;
-  font-weight: 500;
-  font-size: 18px;
+  padding-top: 10px;
 }
 .container {
   background-color: #1c98c3;
@@ -54,7 +61,6 @@ body {
 }
 #firstC {
   width: 2000px;
-  margin-right: 100px;
 }
 @media (max-width: 1000px) {
   #mainContainer {

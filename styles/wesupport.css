@@ -22,22 +22,33 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
 }
+.sizing {
+  font-size: 18px;
+  color: #3d3e3e;
+  padding-top: 12px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
 .icon {
   width: 50px;
   height: 25px;
   color: #167a9c;
   font-size: 20px;
 }
-.sizing {
-  font-size: 16px;
-  color: #3d3e3e;
-  padding-top: 12px;
-  font-weight: 100;
+.container {
+  background-color: #1c98c3;
+  color: #f1f1f1;
+  margin: 48px;
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
 }
-.span {
-  color: #606d75;
-  font-weight: 500;
-  font-size: 18px;
+.newIcon {
+  width: 50px;
+  height: 25px;
+  font-size: 20px;
 }
 .container {
   background-color: #1c98c3;
@@ -53,7 +64,7 @@ body {
   display: flex;
 }
 #firstC {
-  width: 2000px;
+  width: 3000px;
   margin-right: 100px;
 }
 @media (max-width: 1000px) {
