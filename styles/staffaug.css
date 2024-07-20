@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	padding: 10px 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact-button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.panko {
+	color: black;
+}
+
+main {
+	background-color: #f7f9f9;
+	padding: 20px;
+}
+
+.breadcrumb {
+	margin-bottom: 20px;
+}
+
+.bgg {
+	background-color: black;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.breadcrumbp {
+	color: black;
+	text-align: center;
+}
+
+.sa {
+	color: blue;
+	text-align: center;
+}
+
+.sah1 {
+	font-size: 3em;
+	color: black;
+	text-align: center;
+}
+
+.staff-augmentation {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	background-color: #fff;
+}
+
+.left,
+.right {
+	width: 48%;
+}
+
+.left h3,
+.right h3 {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.left ul {
+	list-style: none;
+}
+
+.left ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.left ul li img {
+	margin-right: 10px;
+}
+
+.technologies {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	width: 18%;
+}
+
+.column h4 {
+	font-size: 1em;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.column ul {
+	list-style: none;
+}
+
+.column ul li {
+	margin-bottom: 10px;
+}
+
+.mainContainer {
+	display: flex;
+}
+#firstC {
+	width: 3000px;
+	margin-right: 100px;
+}
+@media (max-width: 1000px) {
+	#mainContainer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

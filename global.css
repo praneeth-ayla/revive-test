@@ -4,59 +4,116 @@
 	transition: 0.5 s;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0px 30px;
-	background-color: blue;
+
+/* Initial state for the navbar */
+.navbar {
+	transition: background-color 0.3s ease;
+	position: sticky;
+}
+
+.contact-button {
+	text-decoration: none;
+	background-color: #1b98c2;
+	transition-duration: 0.2s;
+	padding: 10px 20px;
 	color: white;
-	height: 8vh;
+	border: none;
 }
-nav .links {
-	display: flex;
+
+.contact-button:hover {
+	background-color: #1c99c3d1; /* Green */
+	color: white;
 }
-.links p {
+.navbar-div {
 	padding: 10px;
+	background-color: #20323d;
 }
-#mobile-menu-btn {
-	display: none;
+@media (min-width: 580px) {
+	.navbar-div {
+		padding: 30px;
+	}
 }
-.mobile-menu {
+
+.revive-logo {
+	height: 50px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: space-between;
+	background-color: #111117;
+	color: #9da0ab;
+	text-align: center;
+}
+
+#footer-1 div {
+	padding: 20px;
+	background-color: #19191f;
+	border-radius: 10px;
+}
+
+#footer-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 50px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media (min-width: 1000px) {
+	.footer #footer-1 {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	.footer #footer-1 > div {
+		flex: 1;
+		margin: 0 10px;
+	}
+}
+
+#footer-1 > div:nth-child(2) > div:nth-child(1),
+#footer-1 > div:nth-child(3) > div:nth-child(1) {
+	font-size: 20px;
 	color: white;
-	display: none;
-	position: absolute;
-	right: 0;
-	height: 60vh;
-	width: 70vw;
-	background-color: blue;
+	font-weight: 900;
 }
 
-@media (max-width: 600px) {
-	#mobile-menu-btn {
-		display: block;
-	}
-	nav p {
-		display: none;
-	}
-	.mobile-menu {
-		display: none;
-		flex-direction: column;
-		justify-content: space-around;
-		align-items: center;
-	}
+#footer-2 {
+	text-align: center;
+	background-color: black;
+	padding: 20px 0;
 }
 
-.aboutUsItems {
-	display: none;
+.main-text-black {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 4vh 0 10vh 0;
 }
-
-#aboutUs:hover {
-	background-color: greenyellow;
-	padding: 30px;
-	margin-top: 150px;
+.mainContainer {
+	display: flex;
+	margin: 0 10vw;
+	padding-top: 4vh;
 }
-
-#aboutUs:hover .aboutUsItems {
+/* Make dropdown open on hover */
+.nav-item.dropdown:hover .dropdown-menu {
 	display: block;
+}
+
+/* Ensure the dropdown menu is initially hidden */
+.dropdown-menu {
+	display: none;
 }
