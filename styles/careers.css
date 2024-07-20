@@ -1,38 +1,38 @@
 body {
-  margin: 0%;
-  padding: 0%;
-  text-align: center;
-  font-family: sans-serif;
-  background-color: #eef4ed;
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #eef4ed;
 }
 .heading {
-  font-weight: 800;
-  font-size: xx-large;
+	font-weight: 800;
+	font-size: xx-large;
 }
 .blueH {
-  background-color: lightblue;
-  color: blue;
+	background-color: lightblue;
+	color: #1c98c3;
 }
 .mail {
-  margin-top: 20px;
-  font-weight: 100px;
-  margin-bottom: 40px;
+	margin-top: 20px;
+	font-weight: 100px;
+	margin-bottom: 40px;
 }
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
 }
 .item {
-  border: 5px;
-  padding: 70px;
-  background-color: white;
-  border-radius: 15px;
-  font-weight: 700;
-  max-width: 20%;
+	border: 5px;
+	padding: 70px;
+	background-color: white;
+	border-radius: 15px;
+	font-weight: 700;
+	max-width: 20%;
 }
 .smallText {
-  margin-top: 30px;
-  font-weight: lighter;
+	margin-top: 30px;
+	font-weight: lighter;
 }
