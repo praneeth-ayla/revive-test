@@ -1,0 +1,92 @@
+.carousel-item img {
+	height: 70vh;
+	object-fit: cover;
+	opacity: 80%;
+}
+.carousel-caption {
+	top: 30px;
+	left: 30px;
+}
+.carousel-caption p {
+	color: white;
+	font-size: 20px;
+}
+.carousel-caption h5 {
+	text-wrap: wrap;
+	font-size: 80px;
+	font-weight: 900;
+	color: white;
+}
+
+.blueText {
+	color: #1b98c2;
+	padding: 2vh;
+}
+
+.carousel-caption a {
+	text-decoration: none;
+	background-color: #1b98c2;
+	transition-duration: 0.2s;
+	padding: 10px 20px;
+	order: none;
+}
+
+.carousel-caption a:hover {
+	background-color: #1c99c3d1; /* Green */
+	color: white;
+}
+
+.Section2 {
+	display: flex;
+
+	justify-content: space-around;
+	background-color: #ecf2eb;
+	gap: 20px;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+@media (min-width: 750px) {
+	.Section2 {
+		flex-wrap: nowrap;
+		height: 40vh;
+	}
+}
+.Section2 > div {
+	padding: 50px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.Section2 p {
+	font-size: large;
+}
+.S2Heading {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+.Section3 {
+	padding: 100px;
+	margin-top: 40px;
+}
+
+.Section3 > div {
+	font-size: large;
+}
+.Section3 > :nth-child(2) {
+	margin-top: 30px;
+}
+
+.box {
+	padding: 10px 0;
+}
+
+.box2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.Section4 img {
+	height: auto;
+	width: 100vw;
+}
